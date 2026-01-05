@@ -1,19 +1,175 @@
-<h1 align="center">Wix Headless Templates</h1>
+<h1 align="center">Wix Headless Templates - Comprehensive Integration</h1>
 
 > Join the Wix Headless community on [Discord](https://discord.gg/n6TBrSnYTp)! 🚀
 
-Welcome to the Wix Headless Templates repository! This repository contains various templates for building headless websites using Wix and different front-end frameworks.
+Welcome to the **Wix Headless Templates Monorepo** - a comprehensive integration of all Wix Headless templates across multiple frameworks! This repository contains 16+ production-ready templates, shared packages, and a unified CLI for building headless websites with Wix.
 
-Wix Headless allows you to leverage Wix's powerful business solutions and APIs to manage content, Wix Bookings, Wix Stores, and more, while using your preferred front-end technology. By decoupling the backend from the frontend, you can create highly customizable and performant websites.
+## 🎯 What's New: Comprehensive Integration
 
-Wix offers a variety of business solutions, including:
-- **Content Management System (CMS)**: Manage and organize your website content through an intuitive interface.
-- **Wix Bookings**: Handle appointments, classes, and subscriptions with ease.
-- **Wix Stores**: Manage products, orders, and inventory for your online store.
-- **Wix Events**: Organize and manage events, ticketing, and attendee registration.
-- **Wix Members**: Integrate user authentication and management into your website.
+This monorepo now features:
 
-The templates in this repository showcase the usage of these business solutions APIs, providing you with ready-to-use examples. They can be used as starting points for new projects or as reference implementations when integrating these features into your own projects.
+- **🏗️ Monorepo Architecture**: Managed with Turborepo for optimal build performance
+- **📦 Shared Packages**: Reusable configuration, utilities, and SDK wrappers
+- **🛠️ CLI Tool**: Command-line interface for template management
+- **📚 Comprehensive Documentation**: Integration guides and architecture docs
+- **🔄 Unified Development**: Build, test, and deploy all templates together
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/wix/headless-templates.git
+cd headless-templates
+
+# Install all dependencies
+npm install
+
+# List all available templates
+npm run templates:list
+
+# Build all templates
+npm run build
+```
+
+### Using the CLI
+
+```bash
+# List templates by framework
+npx wix-templates list --framework nextjs
+
+# Show available Wix solutions
+npx wix-templates solutions
+
+# Get help
+npx wix-templates --help
+```
+
+## 📦 Repository Structure
+
+```
+wix-headless-monorepo/
+├── packages/                    # Shared packages
+│   ├── shared-config/          # Common configuration
+│   ├── shared-utils/           # Utility functions
+│   ├── wix-sdk-wrapper/        # Unified SDK wrapper
+│   └── cli/                    # CLI tool
+├── nextjs/                     # Next.js templates (7)
+├── astro/                      # Astro templates (7)
+├── react-native/               # React Native templates (1)
+└── scripts/                    # Management scripts
+```
+
+## 📖 Documentation
+
+- **[Integration Guide](./INTEGRATION_GUIDE.md)**: Complete guide to using the monorepo
+- **[Architecture](./ARCHITECTURE.md)**: System design and technical details
+- **[Template READMEs](./nextjs/)**: Individual template documentation
+
+## 🎨 What is Wix Headless?
+
+Wix Headless allows you to leverage Wix's powerful business solutions and APIs to manage content, bookings, stores, and more, while using your preferred front-end technology. By decoupling the backend from the frontend, you can create highly customizable and performant websites.
+
+### Available Business Solutions
+
+- **Content Management System (CMS)**: Manage and organize your website content
+- **Wix Bookings**: Handle appointments, classes, and subscriptions
+- **Wix Stores**: Manage products, orders, and inventory
+- **Wix Events**: Organize events, ticketing, and attendee registration
+- **Wix Members**: User authentication and management
+- **Wix Blog**: Blog post management and publishing
+- **Wix Pricing Plans**: Subscription and pricing management
+- **Wix Media**: Media library and asset management
+
+## 💡 Shared Packages
+
+### @wix-templates/shared-config
+
+Common configuration for API endpoints, environment variables, and constants.
+
+```javascript
+import { wixApiConfig, frameworks } from '@wix-templates/shared-config';
+```
+
+### @wix-templates/shared-utils
+
+Utility functions for formatting, validation, and common operations.
+
+```javascript
+import { formatDate, formatCurrency, slugify } from '@wix-templates/shared-utils';
+```
+
+### @wix-templates/wix-sdk-wrapper
+
+Unified SDK wrapper for all Wix business solutions with consistent error handling.
+
+```javascript
+import UnifiedWixClient from '@wix-templates/wix-sdk-wrapper';
+const wixClient = UnifiedWixClient.init(myWixClient);
+const products = await wixClient.stores.getProducts();
+```
+
+## 🛠️ Development Commands
+
+```bash
+# Run development servers for all templates
+npm run dev
+
+# Build all templates (with Turborepo caching)
+npm run build
+
+# Run all tests
+npm run test
+
+# Lint all code
+npm run lint
+
+# Format all code
+npm run format
+
+# Clean build artifacts
+npm run clean
+
+# List all templates
+npm run templates:list
+
+# Sync template dependencies
+npm run templates:sync
+```
+
+## 🎯 Working with Templates
+
+### Navigate to a Template
+
+```bash
+# Next.js template
+cd nextjs/minimal-examples
+npm run dev
+
+# Astro template
+cd astro/blog
+npm run dev
+
+# React Native template
+cd react-native/mobile-ecommerce
+npm start
+```
+
+### Using Shared Packages in Templates
+
+All templates can import shared packages:
+
+```javascript
+// Import shared configuration
+import { wixApiConfig } from '@wix-templates/shared-config';
+
+// Import shared utilities
+import { formatCurrency, slugify } from '@wix-templates/shared-utils';
+
+// Import unified SDK wrapper
+import UnifiedWixClient from '@wix-templates/wix-sdk-wrapper';
+```
 
 ## Resources
 
