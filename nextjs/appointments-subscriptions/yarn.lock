@@ -1262,43 +1262,43 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/auto_sdk_pricing-plans_orders@npm:1.0.88":
-  version: 1.0.88
-  resolution: "@wix/auto_sdk_pricing-plans_orders@npm:1.0.88"
+"@wix/auto_sdk_pricing-plans_orders@npm:1.0.94":
+  version: 1.0.94
+  resolution: "@wix/auto_sdk_pricing-plans_orders@npm:1.0.94"
   dependencies:
     "@wix/sdk-runtime": "npm:^1.0.0"
-    "@wix/sdk-types": "npm:^1.13.35"
-  checksum: 10c0/8e8c0ff98a2dc9bc032c82755f896d98b1b5d352d069032f1691f321ba31d38776fc4348410ca677e7c92890cf0bf6b6d62a8c01e8cec73c6717abf4015a8040
+    "@wix/sdk-types": "npm:^1.15.0"
+  checksum: 10c0/1eb4466dd01af8b602943df8d012e9d6d911b98b3930529fd26395c17b8e199071971d49e43c6cd857f9af0b7275003190263e39e2340e683ffbb5a07ca2a70e
   languageName: node
   linkType: hard
 
-"@wix/auto_sdk_pricing-plans_plans-v-3@npm:1.0.33":
-  version: 1.0.33
-  resolution: "@wix/auto_sdk_pricing-plans_plans-v-3@npm:1.0.33"
+"@wix/auto_sdk_pricing-plans_plans-v-3@npm:1.0.40":
+  version: 1.0.40
+  resolution: "@wix/auto_sdk_pricing-plans_plans-v-3@npm:1.0.40"
   dependencies:
     "@wix/sdk-runtime": "npm:^1.0.0"
-    "@wix/sdk-types": "npm:^1.13.35"
-  checksum: 10c0/482e3793101f71d92a595f6097043ccffbfdeca923e95bb783affa9492a8dbdd9b614b1cb2a4857a8861e0d9c273f34c595d7278ec5aa69cca6ba2521f5efb5a
+    "@wix/sdk-types": "npm:^1.15.0"
+  checksum: 10c0/5c9a7d360fc9c2fb521c12e9d689d5271e9faf0a0ff9f5255e33135d2a031c1a5ca8e03dbca1b865fca1b257c0c1f8ae1eba1c595c9dcd7f4ce30d1ca1af68aa
   languageName: node
   linkType: hard
 
-"@wix/auto_sdk_pricing-plans_plans@npm:1.0.91":
-  version: 1.0.91
-  resolution: "@wix/auto_sdk_pricing-plans_plans@npm:1.0.91"
+"@wix/auto_sdk_pricing-plans_plans@npm:1.0.94":
+  version: 1.0.94
+  resolution: "@wix/auto_sdk_pricing-plans_plans@npm:1.0.94"
   dependencies:
     "@wix/sdk-runtime": "npm:^1.0.0"
-    "@wix/sdk-types": "npm:^1.13.35"
-  checksum: 10c0/b77e98504199511e2b7bf359babda04133db7ed3f53a003024e0506136a02467ded4c25119a8d5041f755cb898c6214f78b8b1d88cd530e5c9c2bbe0f395abc4
+    "@wix/sdk-types": "npm:^1.15.0"
+  checksum: 10c0/98f116ac253d6bcf8e53cde6aadb5e153769b8649d6cdd940d7d3d5be100c3ee36300b9ba66669daad9693db33232515231e70f09bc0d8b1b3d2c2397e56f881
   languageName: node
   linkType: hard
 
-"@wix/auto_sdk_pricing-plans_pricing-plans-settings@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@wix/auto_sdk_pricing-plans_pricing-plans-settings@npm:1.0.11"
+"@wix/auto_sdk_pricing-plans_pricing-plans-settings@npm:1.0.16":
+  version: 1.0.16
+  resolution: "@wix/auto_sdk_pricing-plans_pricing-plans-settings@npm:1.0.16"
   dependencies:
     "@wix/sdk-runtime": "npm:^1.0.0"
-    "@wix/sdk-types": "npm:^1.13.35"
-  checksum: 10c0/48fb918811945b1fdbe3e36f14260c024d4d58ee62a64afc0746a2df67d9669ff8b6d9ed27d9de652c77bf75152729842b6d69a2bc17db525941f7df4ee78efc
+    "@wix/sdk-types": "npm:^1.15.0"
+  checksum: 10c0/834213e4c5aedda035c8645ffdf8f1a4faab8b500dd6f6104426d9bb60098b9d0c8ee4709def11ec39b10950d7bf3068582036c553f48573df46316b9a8f0e0d
   languageName: node
   linkType: hard
 
@@ -1434,21 +1434,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/headless-ecom@npm:0.0.35":
-  version: 0.0.35
-  resolution: "@wix/headless-ecom@npm:0.0.35"
+"@wix/headless-ecom@npm:0.0.36":
+  version: 0.0.36
+  resolution: "@wix/headless-ecom@npm:0.0.36"
   dependencies:
     "@radix-ui/react-slot": "npm:^1.1.0"
     "@wix/auto_sdk_ecom_checkout": "npm:^1.0.61"
     "@wix/auto_sdk_ecom_current-cart": "npm:^1.0.56"
-    "@wix/headless-media": "npm:0.0.17"
+    "@wix/headless-media": "npm:0.0.18"
     "@wix/redirects": "npm:^1.0.0"
     "@wix/sdk": "npm:^1.15.24"
     "@wix/services-definitions": "npm:^0.1.4"
     "@wix/services-manager-react": "npm:^0.1.26"
   peerDependencies:
     "@wix/headless-components": ^0.0.0
-  checksum: 10c0/68001c0420a3dd32039ac4e0134b8271fc3379f0afa11656a22c0490316ed00a3c6c39920eb0716d575e5e5755944ea8713ef72b64925290dd335b17e5e843eb
+  checksum: 10c0/1ea4e21aea38e043569430c6caece5196abc18403acd514eaf8ba1a1cac2cc1008dd197f34c0b0ef36fece39f869a365f3dc438f8d633fa4f62de284251a4b51
   languageName: node
   linkType: hard
 
@@ -1463,15 +1463,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/headless-pricing-plans@npm:0.0.15":
-  version: 0.0.15
-  resolution: "@wix/headless-pricing-plans@npm:0.0.15"
+"@wix/headless-media@npm:0.0.18":
+  version: 0.0.18
+  resolution: "@wix/headless-media@npm:0.0.18"
+  dependencies:
+    "@wix/sdk": "npm:^1.17.1"
+    "@wix/services-definitions": "npm:^0.1.4"
+    "@wix/services-manager-react": "npm:^0.1.26"
+  checksum: 10c0/24cc091686cea3f56d5399cb7eaed316e46f8fcc053e9994c31c8cb68961b4425318c90d7b3dff100a83cdddf60a81e7186fd4fa27176ffef2290b727077e96e
+  languageName: node
+  linkType: hard
+
+"@wix/headless-pricing-plans@npm:0.0.18":
+  version: 0.0.18
+  resolution: "@wix/headless-pricing-plans@npm:0.0.18"
   dependencies:
     "@radix-ui/react-slot": "npm:^1.1.0"
     "@wix/essentials": "npm:^0.1.28"
-    "@wix/headless-ecom": "npm:0.0.35"
-    "@wix/headless-media": "npm:0.0.17"
-    "@wix/headless-utils": "npm:0.0.7"
+    "@wix/headless-ecom": "npm:0.0.36"
+    "@wix/headless-media": "npm:0.0.18"
+    "@wix/headless-utils": "npm:0.0.8"
     "@wix/pricing-plans": "npm:^1.0.221"
     "@wix/redirects": "npm:^1.0.0"
     "@wix/sdk": "npm:^1.15.27"
@@ -1479,7 +1490,7 @@ __metadata:
     "@wix/services-manager-react": "npm:^0.1.27"
   peerDependencies:
     "@wix/headless-components": ^0.0.0
-  checksum: 10c0/e8c617784f5f8a086fc7104b951932308ef867b818799c11240a32f2ce41f94895f91de7f07ef83fd61c5b3b25a11f7b30fb48c84bcd353bfd641ff191dfe72a
+  checksum: 10c0/184498f9515666e14fdbf7179f4542e86afc2ec3137dbe1fd1fa40e575b76fb685dcafbaa56dbb98aaf9d06ef85fb7821dd93e796e6f53e63c571bad69444e9f
   languageName: node
   linkType: hard
 
@@ -1491,6 +1502,17 @@ __metadata:
   peerDependencies:
     react: ">=16.3.0"
   checksum: 10c0/f11ae208cdde6de2f9875841e6ecae00858fb689abc2bf954560465b1c3757c63ec3917e560fbf18fa0a63281da937dd549238c8392ea13ce0c636bc55f9ecb2
+  languageName: node
+  linkType: hard
+
+"@wix/headless-utils@npm:0.0.8":
+  version: 0.0.8
+  resolution: "@wix/headless-utils@npm:0.0.8"
+  dependencies:
+    "@radix-ui/react-slot": "npm:^1.2.3"
+  peerDependencies:
+    react: ">=16.3.0"
+  checksum: 10c0/cb1d2eceac15d4ba3d1de1ccd418f0febfaa9546927d06c9770a63781aadc8a88c0d3140e1028e6a301f30ef7d970822837b72de41efe51112f656cd757b2e3f
   languageName: node
   linkType: hard
 
@@ -1558,15 +1580,15 @@ __metadata:
   linkType: hard
 
 "@wix/pricing-plans@npm:^1.0.17, @wix/pricing-plans@npm:^1.0.221":
-  version: 1.0.246
-  resolution: "@wix/pricing-plans@npm:1.0.246"
+  version: 1.0.260
+  resolution: "@wix/pricing-plans@npm:1.0.260"
   dependencies:
-    "@wix/auto_sdk_pricing-plans_orders": "npm:1.0.88"
-    "@wix/auto_sdk_pricing-plans_plans": "npm:1.0.91"
-    "@wix/auto_sdk_pricing-plans_plans-v-3": "npm:1.0.33"
-    "@wix/auto_sdk_pricing-plans_pricing-plans-settings": "npm:1.0.11"
-    "@wix/headless-pricing-plans": "npm:0.0.15"
-  checksum: 10c0/b386ca195412b5036210fbdc130097960dd689ae011a61868f85d339e08e37da5a3a34e1fb79b9657398ae6c22cc82d3a787db84a88ac94f6175cb292c931738
+    "@wix/auto_sdk_pricing-plans_orders": "npm:1.0.94"
+    "@wix/auto_sdk_pricing-plans_plans": "npm:1.0.94"
+    "@wix/auto_sdk_pricing-plans_plans-v-3": "npm:1.0.40"
+    "@wix/auto_sdk_pricing-plans_pricing-plans-settings": "npm:1.0.16"
+    "@wix/headless-pricing-plans": "npm:0.0.18"
+  checksum: 10c0/22ee26940e5246892de5ace5ce7074205beb20bd5fe3d252825f3e43c0ab68bb25499fa9dff515b308354dac52b887f7299a166c320e6dc2954455a8531c7995
   languageName: node
   linkType: hard
 
@@ -1633,6 +1655,17 @@ __metadata:
     "@wix/monitoring-types": "npm:^0.12.0"
     type-fest: "npm:^4.41.0"
   checksum: 10c0/e108529ff78c90cdba2265a26e024368b8fd5b3a98bd5a0da5cbfe37b5e6e37fc18a2d5dceb800a42f6a64c1f397101e30ca39806538a7d23cb9740f5176ed7e
+  languageName: node
+  linkType: hard
+
+"@wix/sdk-types@npm:^1.15.0":
+  version: 1.17.2
+  resolution: "@wix/sdk-types@npm:1.17.2"
+  dependencies:
+    "@wix/error-handler-types": "npm:^1.19.0"
+    "@wix/monitoring-types": "npm:^0.12.0"
+    type-fest: "npm:^4.41.0"
+  checksum: 10c0/c2bdf0a091fbd26ae209ef9c96e6702fed5aba7dd48a2125227058abf70300433f8c342441547d603e946c72cc4524c68a0e4a4790d9890b0787b5bdd7110b1d
   languageName: node
   linkType: hard
 
