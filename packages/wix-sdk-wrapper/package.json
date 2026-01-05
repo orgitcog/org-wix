@@ -1,0 +1,21 @@
+{
+  "name": "@wix-templates/wix-sdk-wrapper",
+  "version": "1.0.0",
+  "description": "Unified SDK wrapper for Wix Headless integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build needed'",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "@wix-templates/shared-config": "*",
+    "@wix-templates/shared-utils": "*"
+  },
+  "peerDependencies": {
+    "@wix/sdk": ">=1.0.0"
+  },
+  "keywords": ["wix", "headless", "sdk", "wrapper"],
+  "author": "Wix",
+  "license": "MIT"
+}

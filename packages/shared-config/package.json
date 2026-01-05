@@ -1,0 +1,14 @@
+{
+  "name": "@wix-templates/shared-config",
+  "version": "1.0.0",
+  "description": "Shared configuration for Wix Headless templates",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build needed'",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": ["wix", "headless", "config"],
+  "author": "Wix",
+  "license": "MIT"
+}

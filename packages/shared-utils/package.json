@@ -1,0 +1,17 @@
+{
+  "name": "@wix-templates/shared-utils",
+  "version": "1.0.0",
+  "description": "Shared utilities for Wix Headless templates",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build needed'",
+    "test": "echo 'No tests yet'"
+  },
+  "dependencies": {
+    "@wix-templates/shared-config": "*"
+  },
+  "keywords": ["wix", "headless", "utils"],
+  "author": "Wix",
+  "license": "MIT"
+}
