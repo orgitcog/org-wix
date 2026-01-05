@@ -2,6 +2,7 @@
   "name": "wix-headless-monorepo",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Comprehensive integration of Wix Headless templates across all frameworks",
   "workspaces": [
     "nextjs/*",

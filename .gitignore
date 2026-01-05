@@ -26,3 +26,21 @@ pnpm-debug.log*
 
 astro/**/*-lock.json
 **/wix.config.json
+
+# Turborepo cache
+.turbo/
+
+# Build artifacts
+*.tsbuildinfo
+.next/
+.vercel/
+.netlify/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
